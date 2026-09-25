@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="578" height="592" viewBox="0 0 578 592" role="img" aria-label="SHA-256 Folder Verification">
+<style>text{font-family:"Cascadia Mono","Cascadia Code",Consolas,"SF Mono",Menlo,"DejaVu Sans Mono","Liberation Mono",monospace;font-size:13px;white-space:pre}.ttl{font-family:"Segoe UI",-apple-system,"Noto Sans",Helvetica,Arial,sans-serif;font-size:12px;fill:#d6d6d6}</style>
+<rect width="578" height="592" rx="10" fill="#0c0c0c"/>
+<path d="M0 10a10 10 0 0 1 10-10h558a10 10 0 0 1 10 10v22h-578 z" fill="#202020"/>
+<rect x="10" y="6" width="250" height="26" rx="6" fill="#0c0c0c"/>
+<path d="M22 14l5 5-5 5" stroke="#cccccc" stroke-width="1.6" fill="none"/><path d="M29 25h6" stroke="#cccccc" stroke-width="1.6"/>
+<text class="ttl" x="44" y="23.5">SHA-256 Folder Verification</text>
+<g stroke="#d6d6d6" stroke-width="1" fill="none"><path d="M464 16.5h10"/><rect x="508.5" y="11.5" width="9" height="9"/><path d="M552 11l9 9M561 11l-9 9"/></g>
+<text x="20" y="65" xml:space="preserve"><tspan fill="#cccccc">============================================================</tspan></text>
+<text x="20" y="83" xml:space="preserve"><tspan fill="#cccccc">                   VERIFICATION RESULT</tspan></text>
+<text x="20" y="101" xml:space="preserve"><tspan fill="#cccccc">============================================================</tspan></text>
+<text x="20" y="119" xml:space="preserve"></text>
+<text x="20" y="137" xml:space="preserve"><tspan fill="#cccccc">  Source : D:\Photos</tspan></text>
+<text x="20" y="155" xml:space="preserve"><tspan fill="#cccccc">  Target : E:\Backup\Photos</tspan></text>
+<text x="20" y="173" xml:space="preserve"></text>
+<text x="20" y="191" xml:space="preserve"><tspan fill="#cccccc">  Identical files           : 3856</tspan></text>
+<text x="20" y="209" xml:space="preserve"><tspan fill="#cccccc">  Different content         : 0</tspan></text>
+<text x="20" y="227" xml:space="preserve"><tspan fill="#cccccc">  Different size            : 0</tspan></text>
+<text x="20" y="245" xml:space="preserve"><tspan fill="#cccccc">  Missing in target         : 0</tspan></text>
+<text x="20" y="263" xml:space="preserve"><tspan fill="#cccccc">  Extra in target           : 0</tspan></text>
+<text x="20" y="281" xml:space="preserve"><tspan fill="#cccccc">  Files that cannot be read : 0</tspan></text>
+<text x="20" y="299" xml:space="preserve"><tspan fill="#cccccc">  Folders missing in target : 0</tspan></text>
+<text x="20" y="317" xml:space="preserve"><tspan fill="#cccccc">  Folders extra in target   : 0</tspan></text>
+<text x="20" y="335" xml:space="preserve"><tspan fill="#cccccc">  Scan errors               : 0</tspan></text>
+<text x="20" y="353" xml:space="preserve"><tspan fill="#cccccc">  Total time                : 00:15:47</tspan></text>
+<text x="20" y="371" xml:space="preserve"></text>
+<text x="20" y="389" xml:space="preserve"><tspan fill="#16c60c">============================================================</tspan></text>
+<text x="20" y="407" xml:space="preserve"><tspan fill="#16c60c">                 VERIFICATION PASSED</tspan></text>
+<text x="20" y="425" xml:space="preserve"><tspan fill="#16c60c">============================================================</tspan></text>
+<text x="20" y="443" xml:space="preserve"></text>
+<text x="20" y="461" xml:space="preserve"><tspan fill="#cccccc">  Every source file has a file at the same relative path in</tspan></text>
+<text x="20" y="479" xml:space="preserve"><tspan fill="#cccccc">  the target with an identical SHA-256 hash, and the target</tspan></text>
+<text x="20" y="497" xml:space="preserve"><tspan fill="#cccccc">  contains nothing extra. The copy is complete and correct.</tspan></text>
+<text x="20" y="515" xml:space="preserve"></text>
+<text x="20" y="533" xml:space="preserve"><tspan fill="#767676">  Resume file deleted, nothing is left on disk.</tspan></text>
+<text x="20" y="551" xml:space="preserve"></text>
+<text x="20" y="569" xml:space="preserve"><tspan fill="#61d6d6">Press any key to start the next round, or close this window to quit.</tspan></text>
+</svg>

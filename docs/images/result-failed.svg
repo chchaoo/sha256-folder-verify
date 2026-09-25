@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="894" height="484" viewBox="0 0 894 484" role="img" aria-label="SHA-256 Folder Verification">
+<style>text{font-family:"Cascadia Mono","Cascadia Code",Consolas,"SF Mono",Menlo,"DejaVu Sans Mono","Liberation Mono",monospace;font-size:13px;white-space:pre}.ttl{font-family:"Segoe UI",-apple-system,"Noto Sans",Helvetica,Arial,sans-serif;font-size:12px;fill:#d6d6d6}</style>
+<rect width="894" height="484" rx="10" fill="#0c0c0c"/>
+<path d="M0 10a10 10 0 0 1 10-10h874a10 10 0 0 1 10 10v22h-894 z" fill="#202020"/>
+<rect x="10" y="6" width="250" height="26" rx="6" fill="#0c0c0c"/>
+<path d="M22 14l5 5-5 5" stroke="#cccccc" stroke-width="1.6" fill="none"/><path d="M29 25h6" stroke="#cccccc" stroke-width="1.6"/>
+<text class="ttl" x="44" y="23.5">SHA-256 Folder Verification</text>
+<g stroke="#d6d6d6" stroke-width="1" fill="none"><path d="M780 16.5h10"/><rect x="824.5" y="11.5" width="9" height="9"/><path d="M868 11l9 9M877 11l-9 9"/></g>
+<text x="20" y="65" xml:space="preserve"><tspan fill="#cccccc">  Identical files           : 3853</tspan></text>
+<text x="20" y="83" xml:space="preserve"><tspan fill="#cccccc">  Different content         : 1</tspan></text>
+<text x="20" y="101" xml:space="preserve"><tspan fill="#cccccc">  Different size            : 1</tspan></text>
+<text x="20" y="119" xml:space="preserve"><tspan fill="#cccccc">  Missing in target         : 1</tspan></text>
+<text x="20" y="137" xml:space="preserve"><tspan fill="#cccccc">  Extra in target           : 0</tspan></text>
+<text x="20" y="155" xml:space="preserve"><tspan fill="#cccccc">  Files that cannot be read : 0</tspan></text>
+<text x="20" y="173" xml:space="preserve"><tspan fill="#cccccc">  Folders missing in target : 0</tspan></text>
+<text x="20" y="191" xml:space="preserve"><tspan fill="#cccccc">  Folders extra in target   : 0</tspan></text>
+<text x="20" y="209" xml:space="preserve"><tspan fill="#cccccc">  Scan errors               : 0</tspan></text>
+<text x="20" y="227" xml:space="preserve"><tspan fill="#cccccc">  Total time                : 00:16:12</tspan></text>
+<text x="20" y="245" xml:space="preserve"></text>
+<text x="20" y="263" xml:space="preserve"><tspan fill="#e74856">============================================================</tspan></text>
+<text x="20" y="281" xml:space="preserve"><tspan fill="#e74856">                 VERIFICATION FAILED</tspan></text>
+<text x="20" y="299" xml:space="preserve"><tspan fill="#e74856">============================================================</tspan></text>
+<text x="20" y="317" xml:space="preserve"></text>
+<text x="20" y="335" xml:space="preserve"><tspan fill="#cccccc">  [CONTENT DIFFERS]    January\IMG_3.jpg</tspan></text>
+<text x="20" y="353" xml:space="preserve"><tspan fill="#cccccc">                       source 258C62CBDD66D28EA5D1DFDA01344142BA57A53993C77DDE8BC6DC1AC76A7980  900000 bytes</tspan></text>
+<text x="20" y="371" xml:space="preserve"><tspan fill="#cccccc">                       target DF83F825A33617F32985F275CA647D90EB37A4B9E77AE2DFF32DDAEC5854B524  900000 bytes</tspan></text>
+<text x="20" y="389" xml:space="preserve"><tspan fill="#cccccc">  [SIZE DIFFERS]       Videos\2025\trip to the mountains 4K.mp4</tspan></text>
+<text x="20" y="407" xml:space="preserve"><tspan fill="#cccccc">                       source 21474836480 bytes, target 19327352832 bytes, not read</tspan></text>
+<text x="20" y="425" xml:space="preserve"><tspan fill="#cccccc">  [MISSING IN TARGET]  Raw files\DSC_2.NEF</tspan></text>
+<text x="20" y="443" xml:space="preserve"></text>
+<text x="20" y="461" xml:space="preserve"><tspan fill="#767676">  Resume file deleted, nothing is left on disk.</tspan></text>
+</svg>

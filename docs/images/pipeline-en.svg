@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" role="img" aria-label="How a verification runs: scan, match by path and size, read only files whose content decides the result">
+  <style>
+    .box{fill:#f6f8fa;stroke:#d0d7de}
+    .cond{fill:#ddf4ff;stroke:#54aeff}
+    .t{fill:#1f2328;font:600 15px -apple-system,"Segoe UI","Noto Sans",Helvetica,Arial,"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif}
+    .c{fill:#0a3069;font:600 13.5px -apple-system,"Segoe UI","Noto Sans",Helvetica,Arial,"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif}
+    .s{fill:#59636e;font:12.5px -apple-system,"Segoe UI","Noto Sans",Helvetica,Arial,"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif}
+    .chip{font:700 11.5px "Cascadia Mono",Consolas,Menlo,monospace;fill:#fff}
+    .ln{stroke:#8c959f;fill:none;stroke-width:2}
+    .lnf{fill:#8c959f}
+    .ok{fill:#1a7f37}.bad{fill:#cf222e}
+    .note{fill:#1a7f37;font:600 13px -apple-system,"Segoe UI","Noto Sans",Helvetica,Arial,"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif}
+    .br{stroke:#1a7f37;fill:none;stroke-width:1.5}
+    @media (prefers-color-scheme:dark){
+      .box{fill:#161b22;stroke:#30363d}
+      .cond{fill:#0c2d6b;stroke:#1f6feb}
+      .t{fill:#e6edf3}.c{fill:#cae8ff}.s{fill:#9198a1}
+      .ln{stroke:#6e7681}.lnf{fill:#6e7681}
+      .ok{fill:#238636}.bad{fill:#da3633}
+      .note{fill:#3fb950}.br{stroke:#3fb950}
+    }
+  </style>
+
+  <!-- scan -->
+  <rect class="box" x="290" y="10" width="320" height="54" rx="10"/>
+  <text class="t" x="450" y="33" text-anchor="middle">Scan both folders</text>
+  <text class="s" x="450" y="52" text-anchor="middle">hidden and system files, long paths, empty folders</text>
+  <path class="ln" d="M450 64v16"/><path class="lnf" d="M444 80l6 9 6-9z"/>
+
+  <!-- match -->
+  <rect class="box" x="290" y="92" width="320" height="54" rx="10"/>
+  <text class="t" x="450" y="115" text-anchor="middle">Match files by relative path</text>
+  <text class="s" x="450" y="134" text-anchor="middle">and compare their sizes, nothing is read yet</text>
+
+  <!-- fan out -->
+  <path class="ln" d="M450 146v14M110 160H745M110 160v14M310 160v14M510 160v14M745 160v14"/>
+  <path class="lnf" d="M104 174l6 9 6-9zM304 174l6 9 6-9zM504 174l6 9 6-9zM739 174l6 9 6-9z"/>
+
+  <!-- conditions -->
+  <rect class="cond" x="20" y="186" width="180" height="36" rx="18"/>
+  <text class="c" x="110" y="209" text-anchor="middle">Only in the original</text>
+  <rect class="cond" x="220" y="186" width="180" height="36" rx="18"/>
+  <text class="c" x="310" y="209" text-anchor="middle">Only in the copy</text>
+  <rect class="cond" x="420" y="186" width="180" height="36" rx="18"/>
+  <text class="c" x="510" y="209" text-anchor="middle">Both, sizes differ</text>
+  <rect class="cond" x="625" y="186" width="240" height="36" rx="18"/>
+  <text class="c" x="745" y="209" text-anchor="middle">Both, same size</text>
+
+  <path class="ln" d="M110 222v12M310 222v12M510 222v12M745 222v12"/>
+  <path class="lnf" d="M104 234l6 9 6-9zM304 234l6 9 6-9zM504 234l6 9 6-9zM739 234l6 9 6-9z"/>
+
+  <!-- decided without reading -->
+  <rect class="bad" x="35" y="248" width="150" height="28" rx="6"/>
+  <text class="chip" x="110" y="266.5" text-anchor="middle">MISSING IN TARGET</text>
+  <rect class="bad" x="235" y="248" width="150" height="28" rx="6"/>
+  <text class="chip" x="310" y="266.5" text-anchor="middle">EXTRA IN TARGET</text>
+  <rect class="bad" x="435" y="248" width="150" height="28" rx="6"/>
+  <text class="chip" x="510" y="266.5" text-anchor="middle">SIZE DIFFERS</text>
+  <text class="s" x="110" y="296" text-anchor="middle">not read</text>
+  <text class="s" x="310" y="296" text-anchor="middle">not read</text>
+  <text class="s" x="510" y="296" text-anchor="middle">neither side read</text>
+
+  <path class="br" d="M25 316v10h570v-10"/>
+  <text class="note" x="310" y="350" text-anchor="middle">Decided from names and sizes alone, no time spent reading</text>
+
+  <!-- hashed -->
+  <rect class="box" x="600" y="248" width="290" height="54" rx="10"/>
+  <text class="t" x="745" y="271" text-anchor="middle">SHA-256 of both files</text>
+  <text class="s" x="745" y="290" text-anchor="middle">1 MiB blocks, one reader thread per disk</text>
+  <path class="ln" d="M745 302v12M672 314H818M672 314v10M818 314v10"/>
+  <path class="lnf" d="M666 324l6 9 6-9zM812 324l6 9 6-9z"/>
+  <rect class="ok" x="610" y="336" width="124" height="28" rx="6"/>
+  <text class="chip" x="672" y="354.5" text-anchor="middle">IDENTICAL</text>
+  <rect class="bad" x="752" y="336" width="132" height="28" rx="6"/>
+  <text class="chip" x="818" y="354.5" text-anchor="middle">CONTENT DIFFERS</text>
+</svg>
