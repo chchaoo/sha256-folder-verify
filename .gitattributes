@@ -4,3 +4,7 @@
 # and in the release asset.
 *.bat -text
 *.ps1 -text
+
+# The old versions in history/ are an archive, not the current code:
+# keep them out of GitHub's language statistics.
+history/** linguist-documentation
