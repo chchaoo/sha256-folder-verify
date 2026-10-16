@@ -1,0 +1,6 @@
+# cmd.exe does not reliably run batch files with LF line endings.
+# -text makes Git store .bat files byte for byte, so the CRLF endings
+# survive everywhere: in a clone on any OS, in "Download raw file"
+# and in the release asset.
+*.bat -text
+*.ps1 -text
