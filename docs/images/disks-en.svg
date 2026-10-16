@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="Folders on different disks are read at the same time, folders on the same disk one after the other">
+  <style>
+    .card{fill:#f6f8fa;stroke:#d0d7de}
+    .t{fill:#1f2328;font:600 15px -apple-system,"Segoe UI","Noto Sans",Helvetica,Arial,"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif}
+    .s{fill:#59636e;font:12.5px -apple-system,"Segoe UI","Noto Sans",Helvetica,Arial,"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif}
+    .lab{fill:#1f2328;font:600 12px "Cascadia Mono",Consolas,Menlo,monospace}
+    .ax{stroke:#8c959f;fill:none;stroke-width:1.5}.axf{fill:#8c959f}
+    .src{fill:#2f81f7}.dst{fill:#1f9d55}
+    @media (prefers-color-scheme:dark){
+      .card{fill:#161b22;stroke:#30363d}
+      .t{fill:#e6edf3}.s{fill:#9198a1}.lab{fill:#e6edf3}
+      .ax{stroke:#6e7681}.axf{fill:#6e7681}
+      .src{fill:#4493f8}.dst{fill:#3fb950}
+    }
+  </style>
+
+  <rect class="card" x="10" y="10" width="430" height="180" rx="14"/>
+  <text class="t" x="30" y="40">Two different physical disks</text>
+  <text class="s" x="30" y="61">both folders are read at the same time</text>
+  <text class="lab" x="30" y="100">D: SOURCE</text>
+  <rect class="src" x="120" y="87" width="250" height="20" rx="5"/>
+  <text class="lab" x="30" y="136">E: TARGET</text>
+  <rect class="dst" x="120" y="123" width="262" height="20" rx="5"/>
+  <path class="ax" d="M120 164H410"/><path class="axf" d="M410 159l9 5-9 5z"/>
+  <text class="s" x="120" y="182">time</text>
+
+  <rect class="card" x="460" y="10" width="430" height="180" rx="14"/>
+  <text class="t" x="480" y="40">One physical disk</text>
+  <text class="s" x="480" y="61">one folder after the other, even on two partitions</text>
+  <text class="lab" x="480" y="100">D: SOURCE</text>
+  <rect class="src" x="570" y="87" width="150" height="20" rx="5"/>
+  <text class="lab" x="480" y="136">D: TARGET</text>
+  <rect class="dst" x="722" y="123" width="150" height="20" rx="5"/>
+  <path class="ax" d="M570 164H865"/><path class="axf" d="M865 159l9 5-9 5z"/>
+  <text class="s" x="570" y="182">time</text>
+</svg>

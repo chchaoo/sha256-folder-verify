@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="546" height="340" viewBox="0 0 546 340" role="img" aria-label="SHA-256 Folder Verification">
+<style>text{font-family:"Cascadia Mono","Cascadia Code",Consolas,"SF Mono",Menlo,"DejaVu Sans Mono","Liberation Mono",monospace;font-size:13px;white-space:pre}.ttl{font-family:"Segoe UI",-apple-system,"Noto Sans",Helvetica,Arial,sans-serif;font-size:12px;fill:#d6d6d6}</style>
+<rect width="546" height="340" rx="10" fill="#0c0c0c"/>
+<path d="M0 10a10 10 0 0 1 10-10h526a10 10 0 0 1 10 10v22h-546 z" fill="#202020"/>
+<rect x="10" y="6" width="250" height="26" rx="6" fill="#0c0c0c"/>
+<path d="M22 14l5 5-5 5" stroke="#cccccc" stroke-width="1.6" fill="none"/><path d="M29 25h6" stroke="#cccccc" stroke-width="1.6"/>
+<text class="ttl" x="44" y="23.5">SHA-256 Folder Verification</text>
+<g stroke="#d6d6d6" stroke-width="1" fill="none"><path d="M432 16.5h10"/><rect x="476.5" y="11.5" width="9" height="9"/><path d="M520 11l9 9M529 11l-9 9"/></g>
+<text x="20" y="65" xml:space="preserve"><tspan fill="#cccccc">------------------------------------------------------------</tspan></text>
+<text x="20" y="83" xml:space="preserve"><tspan fill="#f9f1a5">  UNFINISHED VERIFICATION FOUND</tspan></text>
+<text x="20" y="101" xml:space="preserve"><tspan fill="#cccccc">------------------------------------------------------------</tspan></text>
+<text x="20" y="119" xml:space="preserve"><tspan fill="#cccccc">  File   : C:\Tools\verify_resume.txt</tspan></text>
+<text x="20" y="137" xml:space="preserve"><tspan fill="#cccccc">  Source : D:\Photos</tspan></text>
+<text x="20" y="155" xml:space="preserve"><tspan fill="#cccccc">  Target : E:\Backup\Photos</tspan></text>
+<text x="20" y="173" xml:space="preserve"><tspan fill="#cccccc">  Done   : 2417 files already hashed</tspan></text>
+<text x="20" y="191" xml:space="preserve"></text>
+<text x="20" y="209" xml:space="preserve"><tspan fill="#cccccc">  Y = continue that verification</tspan></text>
+<text x="20" y="227" xml:space="preserve"><tspan fill="#cccccc">  N = delete the saved progress and start a new verification</tspan></text>
+<text x="20" y="245" xml:space="preserve"></text>
+<text x="20" y="263" xml:space="preserve"><tspan fill="#61d6d6">Continue the unfinished verification?</tspan></text>
+<text x="20" y="281" xml:space="preserve"><tspan fill="#cccccc">  [Y/N]: y</tspan></text>
+<text x="20" y="299" xml:space="preserve"></text>
+<text x="20" y="317" xml:space="preserve"><tspan fill="#16c60c">  Continuing.</tspan></text>
+</svg>
