@@ -15,7 +15,7 @@ compares SHA-256 hashes and the whole folder tree, and gives you a clear verdict
 
 **English** · [简体中文](README.zh-CN.md)
 
-### [⬇ Download verify.bat](https://github.com/chchaoo/sha256-folder-verify/raw/refs/heads/main/verify.bat)
+### [⬇ Download verify.bat](https://github.com/chchaoo/sha256-folder-verify/releases/latest/download/verify.bat)
 
 </div>
 
@@ -25,7 +25,7 @@ compares SHA-256 hashes and the whole folder tree, and gives you a clear verdict
 
 <p align="center"><img src="docs/images/usage-en.svg" alt="1. Double-click verify.bat  2. Drag in the original, then the copy  3. Read the verdict" width="900"></p>
 
-1. **[Download `verify.bat`](https://github.com/chchaoo/sha256-folder-verify/raw/refs/heads/main/verify.bat)**. It is the whole program: nothing to install, no admin rights needed.
+1. **[Download `verify.bat`](https://github.com/chchaoo/sha256-folder-verify/releases/latest/download/verify.bat)**. It is the whole program: nothing to install, no admin rights needed.
 2. **Double-click it.** Drag the **original** folder into the window and press <kbd>Enter</kbd>, then drag the **copy** in and press <kbd>Enter</kbd>.
 3. **Wait for the verdict.** `VERIFICATION PASSED` means every file is identical. Anything else lists every file that is not.
 

@@ -15,7 +15,7 @@
 
 [English](README.md) · **简体中文**
 
-### [⬇ 下载 verify.bat](https://github.com/chchaoo/sha256-folder-verify/raw/refs/heads/main/verify.bat)
+### [⬇ 下载 verify.bat](https://github.com/chchaoo/sha256-folder-verify/releases/latest/download/verify.bat)
 
 </div>
 
@@ -25,7 +25,7 @@
 
 <p align="center"><img src="docs/images/usage-zh.svg" alt="1. 双击 verify.bat  2. 先拖入原件，再拖入副本  3. 查看结论" width="900"></p>
 
-1. **[下载 `verify.bat`](https://github.com/chchaoo/sha256-folder-verify/raw/refs/heads/main/verify.bat)**。整个程序就这一个文件，不用安装，也不需要管理员权限。
+1. **[下载 `verify.bat`](https://github.com/chchaoo/sha256-folder-verify/releases/latest/download/verify.bat)**。整个程序就这一个文件，不用安装，也不需要管理员权限。
 2. **双击运行。** 把**原始文件夹**拖进窗口，按 <kbd>Enter</kbd>；再把**复制出来的文件夹**拖进去，按 <kbd>Enter</kbd>。
 3. **等待结论。** 显示 `VERIFICATION PASSED` 就说明每个文件都完全一致；否则会列出每一个不一致的文件。
 
