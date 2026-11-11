@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="718" viewBox="0 0 830 718" role="img" aria-label="SHA-256 Folder Verification">
+<style>text{font-family:"Cascadia Mono","Cascadia Code",Consolas,"SF Mono",Menlo,"DejaVu Sans Mono","Liberation Mono",monospace;font-size:13px;white-space:pre}.ttl{font-family:"Segoe UI",-apple-system,"Noto Sans",Helvetica,Arial,sans-serif;font-size:12px;fill:#d6d6d6}</style>
+<rect width="830" height="718" rx="10" fill="#0c0c0c"/>
+<path d="M0 10a10 10 0 0 1 10-10h810a10 10 0 0 1 10 10v22h-830 z" fill="#202020"/>
+<rect x="10" y="6" width="250" height="26" rx="6" fill="#0c0c0c"/>
+<path d="M22 14l5 5-5 5" stroke="#cccccc" stroke-width="1.6" fill="none"/><path d="M29 25h6" stroke="#cccccc" stroke-width="1.6"/>
+<text class="ttl" x="44" y="23.5">SHA-256 Folder Verification</text>
+<g stroke="#d6d6d6" stroke-width="1" fill="none"><path d="M716 16.5h10"/><rect x="760.5" y="11.5" width="9" height="9"/><path d="M804 11l9 9M813 11l-9 9"/></g>
+<text x="20" y="65" xml:space="preserve"><tspan fill="#61d6d6">SOURCE folder   the original:</tspan></text>
+<text x="20" y="83" xml:space="preserve"><tspan fill="#cccccc">  Drag the folder into this window and press ENTER,</tspan></text>
+<text x="20" y="101" xml:space="preserve"><tspan fill="#cccccc">  or type the full path.</tspan></text>
+<text x="20" y="119" xml:space="preserve"><tspan fill="#cccccc">  &gt;: D:\Photos</tspan></text>
+<text x="20" y="137" xml:space="preserve"><tspan fill="#16c60c">  OK  D:\Photos</tspan></text>
+<text x="20" y="155" xml:space="preserve"></text>
+<text x="20" y="173" xml:space="preserve"><tspan fill="#61d6d6">TARGET folder   the copy:</tspan></text>
+<text x="20" y="191" xml:space="preserve"><tspan fill="#cccccc">  Drag the folder into this window and press ENTER,</tspan></text>
+<text x="20" y="209" xml:space="preserve"><tspan fill="#cccccc">  or type the full path.</tspan></text>
+<text x="20" y="227" xml:space="preserve"><tspan fill="#cccccc">  &gt;: E:\Backup\Photos</tspan></text>
+<text x="20" y="245" xml:space="preserve"><tspan fill="#16c60c">  OK  E:\Backup\Photos</tspan></text>
+<text x="20" y="263" xml:space="preserve"></text>
+<text x="20" y="281" xml:space="preserve"><tspan fill="#cccccc">Scanning folders, please wait...</tspan></text>
+<text x="20" y="299" xml:space="preserve"><tspan fill="#cccccc">  SOURCE : 3856 files, 412 folders, 182.54 GiB</tspan></text>
+<text x="20" y="317" xml:space="preserve"><tspan fill="#cccccc">  TARGET : 3855 files, 412 folders, 180.50 GiB</tspan></text>
+<text x="20" y="335" xml:space="preserve"></text>
+<text x="20" y="353" xml:space="preserve"><tspan fill="#cccccc">------------------------------------------------------------</tspan></text>
+<text x="20" y="371" xml:space="preserve"><tspan fill="#cccccc">  HASHING   7708 files, 325.00 GiB</tspan></text>
+<text x="20" y="389" xml:space="preserve"><tspan fill="#cccccc">  SOURCE    D:  disk 1  WDC WD40EFRX-68N32N0</tspan></text>
+<text x="20" y="407" xml:space="preserve"><tspan fill="#cccccc">  TARGET    E:  disk 2  ST4000DM004-2CV104</tspan></text>
+<text x="20" y="425" xml:space="preserve"><tspan fill="#cccccc">  READING   both folders at once, one thread each, they are on different disks</tspan></text>
+<text x="20" y="443" xml:space="preserve"><tspan fill="#f9f1a5">  NOT READ  3 files, 38.04 GiB, their content cannot change the result:</tspan></text>
+<text x="20" y="461" xml:space="preserve"><tspan fill="#f9f1a5">            1 differ in size, 1 missing in target</tspan></text>
+<text x="20" y="479" xml:space="preserve"><tspan fill="#cccccc">------------------------------------------------------------</tspan></text>
+<text x="20" y="497" xml:space="preserve"></text>
+<text x="20" y="515" xml:space="preserve"><tspan fill="#cccccc">  SOURCE :   185.20 MiB/s   Videos\2025\drone footage 4K.mp4</tspan></text>
+<text x="20" y="533" xml:space="preserve"><tspan fill="#cccccc">   File  : [################........................]  40.0%   8.00 GiB / 20.00 GiB   00:01:06 left</tspan></text>
+<text x="20" y="551" xml:space="preserve"><tspan fill="#cccccc">   Files : [############............................]  31.2%   1203 / 3854</tspan></text>
+<text x="20" y="569" xml:space="preserve"><tspan fill="#cccccc">   Bytes : [##############..........................]  36.4%   59.17 GiB / 162.50 GiB</tspan></text>
+<text x="20" y="587" xml:space="preserve"></text>
+<text x="20" y="605" xml:space="preserve"><tspan fill="#cccccc">  TARGET :   171.64 MiB/s   Raw files\DSC_0877.NEF</tspan></text>
+<text x="20" y="623" xml:space="preserve"><tspan fill="#cccccc">   File  : [##########################..............]  65.1%   29.49 MiB / 45.30 MiB   00:00:00 left</tspan></text>
+<text x="20" y="641" xml:space="preserve"><tspan fill="#cccccc">   Files : [#############...........................]  34.0%   1310 / 3854</tspan></text>
+<text x="20" y="659" xml:space="preserve"><tspan fill="#cccccc">   Bytes : [#############...........................]  34.6%   56.21 GiB / 162.50 GiB</tspan></text>
+<text x="20" y="677" xml:space="preserve"></text>
+<text x="20" y="695" xml:space="preserve"><tspan fill="#cccccc">  Elapsed: 00:05:31   ETA 00:10:41   Total 35.5%</tspan></text>
+</svg>
